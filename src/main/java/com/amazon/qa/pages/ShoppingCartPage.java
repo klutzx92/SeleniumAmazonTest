@@ -8,13 +8,6 @@ import com.amazon.qa.base.TestBase;
 
 public class ShoppingCartPage extends TestBase{
 	
-	//@FindBy(id = "sc-subtotal-label-buybox")
-	//WebElement subTotal;
-	
-	
-	// Deleted subtotal
-	//div[@class='a-row a-spacing-mini sc-subtotal sc-subtotal-activecart sc-java-remote-feature']//child::span[@id='sc-subtotal-label-activecart']
-
 	@FindBy(xpath = "//div[@class='a-row a-spacing-mini sc-subtotal sc-subtotal-activecart sc-java-remote-feature']//child::span[@id='sc-subtotal-label-activecart']")
 	WebElement subTotal;
 	
